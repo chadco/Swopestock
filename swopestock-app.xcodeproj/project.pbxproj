@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1355C6B11C5ECAAB0005C671 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355C6B01C5ECAAB0005C671 /* DataServices.swift */; };
+		1355C6B31C5FFE5E0005C671 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355C6B21C5FFE5E0005C671 /* FeedVC.swift */; };
+		1355C6B51C5FFF3C0005C671 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355C6B41C5FFF3C0005C671 /* PostCell.swift */; };
 		13F29E9F1C5E9E80003B9A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F29E9E1C5E9E80003B9A2F /* AppDelegate.swift */; };
 		13F29EA11C5E9E80003B9A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F29EA01C5E9E80003B9A2F /* ViewController.swift */; };
 		13F29EA41C5E9E80003B9A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F29EA21C5E9E80003B9A2F /* Main.storyboard */; };
 		13F29EA61C5E9E80003B9A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F29EA51C5E9E80003B9A2F /* Assets.xcassets */; };
 		13F29EA91C5E9E80003B9A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F29EA71C5E9E80003B9A2F /* LaunchScreen.storyboard */; };
+		13F29EB81C5E9ED1003B9A2F /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13F29EB41C5E9ED1003B9A2F /* NotoSans-Bold.ttf */; };
+		13F29EB91C5E9ED1003B9A2F /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13F29EB51C5E9ED1003B9A2F /* NotoSans-BoldItalic.ttf */; };
+		13F29EBA1C5E9ED1003B9A2F /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13F29EB61C5E9ED1003B9A2F /* NotoSans-Italic.ttf */; };
+		13F29EBB1C5E9ED1003B9A2F /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13F29EB71C5E9ED1003B9A2F /* NotoSans-Regular.ttf */; };
+		13F29EBD1C5EA3FA003B9A2F /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F29EBC1C5EA3FA003B9A2F /* MaterialView.swift */; };
+		13F29EC01C5EA457003B9A2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F29EBF1C5EA457003B9A2F /* Constants.swift */; };
+		13F29EC21C5EAF4F003B9A2F /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F29EC11C5EAF4F003B9A2F /* MaterialButton.swift */; };
+		13F29EC41C5EB130003B9A2F /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F29EC31C5EB130003B9A2F /* MaterialTextField.swift */; };
+		13F29EC91C5EBD9A003B9A2F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F29EC61C5EBD9A003B9A2F /* Bolts.framework */; };
+		13F29ECA1C5EBD9A003B9A2F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F29EC71C5EBD9A003B9A2F /* FBSDKCoreKit.framework */; };
+		13F29ECB1C5EBD9A003B9A2F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F29EC81C5EBD9A003B9A2F /* FBSDKLoginKit.framework */; };
+		9714FA63652925286E282956 /* Pods_swopestock_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290FC234AFD9A94BAAB2B320 /* Pods_swopestock_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1355C6B01C5ECAAB0005C671 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		1355C6B21C5FFE5E0005C671 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		1355C6B41C5FFF3C0005C671 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		13F29E9B1C5E9E80003B9A2F /* swopestock-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swopestock-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F29E9E1C5E9E80003B9A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F29EA01C5E9E80003B9A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,20 @@
 		13F29EA51C5E9E80003B9A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13F29EA81C5E9E80003B9A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13F29EAA1C5E9E80003B9A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F29EB41C5E9ED1003B9A2F /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		13F29EB51C5E9ED1003B9A2F /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		13F29EB61C5E9ED1003B9A2F /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		13F29EB71C5E9ED1003B9A2F /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		13F29EBC1C5EA3FA003B9A2F /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		13F29EBF1C5EA457003B9A2F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		13F29EC11C5EAF4F003B9A2F /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		13F29EC31C5EB130003B9A2F /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		13F29EC61C5EBD9A003B9A2F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		13F29EC71C5EBD9A003B9A2F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		13F29EC81C5EBD9A003B9A2F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		290FC234AFD9A94BAAB2B320 /* Pods_swopestock_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swopestock_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D96CA198BF22EF0EFD6BFEA /* Pods-swopestock-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swopestock-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swopestock-app/Pods-swopestock-app.debug.xcconfig"; sourceTree = "<group>"; };
+		CDFFA98F53AF0868EF523D16 /* Pods-swopestock-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swopestock-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-swopestock-app/Pods-swopestock-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F29EC91C5EBD9A003B9A2F /* Bolts.framework in Frameworks */,
+				13F29ECA1C5EBD9A003B9A2F /* FBSDKCoreKit.framework in Frameworks */,
+				13F29ECB1C5EBD9A003B9A2F /* FBSDKLoginKit.framework in Frameworks */,
+				9714FA63652925286E282956 /* Pods_swopestock_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1355C6AF1C5ECA990005C671 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1355C6B01C5ECAAB0005C671 /* DataServices.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		13F29E921C5E9E80003B9A2F = {
 			isa = PBXGroup;
 			children = (
 				13F29E9D1C5E9E80003B9A2F /* swopestock-app */,
 				13F29E9C1C5E9E80003B9A2F /* Products */,
+				DB66BD508BEDE6A6179AE39C /* Pods */,
+				E53817943E2A9959DE3D2EC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +100,13 @@
 		13F29E9D1C5E9E80003B9A2F /* swopestock-app */ = {
 			isa = PBXGroup;
 			children = (
+				1355C6AF1C5ECA990005C671 /* Services */,
+				13F29EC51C5EBD63003B9A2F /* Frameworks */,
+				13F29EBE1C5EA43D003B9A2F /* Util */,
+				13F29EB31C5E9EA8003B9A2F /* Resources */,
+				13F29EB21C5E9EA2003B9A2F /* Model */,
+				13F29EB11C5E9E9C003B9A2F /* View */,
+				13F29EB01C5E9E96003B9A2F /* Controller */,
 				13F29E9E1C5E9E80003B9A2F /* AppDelegate.swift */,
 				13F29EA01C5E9E80003B9A2F /* ViewController.swift */,
 				13F29EA21C5E9E80003B9A2F /* Main.storyboard */,
@@ -64,6 +117,78 @@
 			path = "swopestock-app";
 			sourceTree = "<group>";
 		};
+		13F29EB01C5E9E96003B9A2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1355C6B21C5FFE5E0005C671 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		13F29EB11C5E9E9C003B9A2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13F29EBC1C5EA3FA003B9A2F /* MaterialView.swift */,
+				13F29EC11C5EAF4F003B9A2F /* MaterialButton.swift */,
+				13F29EC31C5EB130003B9A2F /* MaterialTextField.swift */,
+				1355C6B41C5FFF3C0005C671 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		13F29EB21C5E9EA2003B9A2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		13F29EB31C5E9EA8003B9A2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13F29EB41C5E9ED1003B9A2F /* NotoSans-Bold.ttf */,
+				13F29EB61C5E9ED1003B9A2F /* NotoSans-Italic.ttf */,
+				13F29EB51C5E9ED1003B9A2F /* NotoSans-BoldItalic.ttf */,
+				13F29EB71C5E9ED1003B9A2F /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13F29EBE1C5EA43D003B9A2F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				13F29EBF1C5EA457003B9A2F /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		13F29EC51C5EBD63003B9A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F29EC61C5EBD9A003B9A2F /* Bolts.framework */,
+				13F29EC71C5EBD9A003B9A2F /* FBSDKCoreKit.framework */,
+				13F29EC81C5EBD9A003B9A2F /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB66BD508BEDE6A6179AE39C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D96CA198BF22EF0EFD6BFEA /* Pods-swopestock-app.debug.xcconfig */,
+				CDFFA98F53AF0868EF523D16 /* Pods-swopestock-app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E53817943E2A9959DE3D2EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				290FC234AFD9A94BAAB2B320 /* Pods_swopestock_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13F29EAD1C5E9E80003B9A2F /* Build configuration list for PBXNativeTarget "swopestock-app" */;
 			buildPhases = (
+				801F575D2A91FBE6285936B6 /* Check Pods Manifest.lock */,
 				13F29E971C5E9E80003B9A2F /* Sources */,
 				13F29E981C5E9E80003B9A2F /* Frameworks */,
 				13F29E991C5E9E80003B9A2F /* Resources */,
+				884F27CEB220BCB34126CD41 /* Embed Pods Frameworks */,
+				15219462C8166CA1BA903BD6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +250,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F29EB81C5E9ED1003B9A2F /* NotoSans-Bold.ttf in Resources */,
 				13F29EA91C5E9E80003B9A2F /* LaunchScreen.storyboard in Resources */,
+				13F29EB91C5E9ED1003B9A2F /* NotoSans-BoldItalic.ttf in Resources */,
+				13F29EBA1C5E9ED1003B9A2F /* NotoSans-Italic.ttf in Resources */,
 				13F29EA61C5E9E80003B9A2F /* Assets.xcassets in Resources */,
 				13F29EA41C5E9E80003B9A2F /* Main.storyboard in Resources */,
+				13F29EBB1C5E9ED1003B9A2F /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15219462C8166CA1BA903BD6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swopestock-app/Pods-swopestock-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		801F575D2A91FBE6285936B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		884F27CEB220BCB34126CD41 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swopestock-app/Pods-swopestock-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13F29E971C5E9E80003B9A2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F29EC41C5EB130003B9A2F /* MaterialTextField.swift in Sources */,
+				1355C6B11C5ECAAB0005C671 /* DataServices.swift in Sources */,
+				13F29EBD1C5EA3FA003B9A2F /* MaterialView.swift in Sources */,
 				13F29EA11C5E9E80003B9A2F /* ViewController.swift in Sources */,
+				1355C6B31C5FFE5E0005C671 /* FeedVC.swift in Sources */,
+				1355C6B51C5FFF3C0005C671 /* PostCell.swift in Sources */,
 				13F29E9F1C5E9E80003B9A2F /* AppDelegate.swift in Sources */,
+				13F29EC01C5EA457003B9A2F /* Constants.swift in Sources */,
+				13F29EC21C5EAF4F003B9A2F /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +434,13 @@
 		};
 		13F29EAE1C5E9E80003B9A2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D96CA198BF22EF0EFD6BFEA /* Pods-swopestock-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swopestock-app",
+				);
 				INFOPLIST_FILE = "swopestock-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rudydesigns.swopestock-app";
@@ -258,8 +450,13 @@
 		};
 		13F29EAF1C5E9E80003B9A2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDFFA98F53AF0868EF523D16 /* Pods-swopestock-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swopestock-app",
+				);
 				INFOPLIST_FILE = "swopestock-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rudydesigns.swopestock-app";
@@ -286,6 +483,7 @@
 				13F29EAF1C5E9E80003B9A2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
