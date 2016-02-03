@@ -14,6 +14,7 @@ let KEY_UID = "uid"
 
 // Segues
 let SEGUE_LOGGED_IN = "loggedIn"
+let SEGUE_GOTO_FEED = "gotoFeed"
 
 // Staus Codes
 var STATUS_ACCOUNT_NOEXIST = -8

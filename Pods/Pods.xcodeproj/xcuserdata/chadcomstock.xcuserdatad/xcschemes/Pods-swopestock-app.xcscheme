@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A5F29EFF21634F10B1538F4B'
+               BlueprintIdentifier = '5134516B0CE9C8B2EB2EE921'
                BlueprintName = 'Pods-swopestock-app'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_swopestock_app.framework'>

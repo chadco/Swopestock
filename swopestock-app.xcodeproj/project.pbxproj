@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131A0E2C1C61867C00F4EBEE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A0E2B1C61867C00F4EBEE /* ProfileViewController.swift */; };
 		1355C6B11C5ECAAB0005C671 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355C6B01C5ECAAB0005C671 /* DataServices.swift */; };
 		1355C6B31C5FFE5E0005C671 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355C6B21C5FFE5E0005C671 /* FeedVC.swift */; };
 		1355C6B51C5FFF3C0005C671 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355C6B41C5FFF3C0005C671 /* PostCell.swift */; };
+		1355C6B71C602FBD0005C671 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355C6B61C602FBD0005C671 /* Post.swift */; };
 		13F29E9F1C5E9E80003B9A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F29E9E1C5E9E80003B9A2F /* AppDelegate.swift */; };
 		13F29EA11C5E9E80003B9A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F29EA01C5E9E80003B9A2F /* ViewController.swift */; };
 		13F29EA41C5E9E80003B9A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F29EA21C5E9E80003B9A2F /* Main.storyboard */; };
@@ -30,9 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131A0E2B1C61867C00F4EBEE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1355C6B01C5ECAAB0005C671 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		1355C6B21C5FFE5E0005C671 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		1355C6B41C5FFF3C0005C671 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		1355C6B61C602FBD0005C671 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		13F29E9B1C5E9E80003B9A2F /* swopestock-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swopestock-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F29E9E1C5E9E80003B9A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F29EA01C5E9E80003B9A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +112,6 @@
 				13F29EB11C5E9E9C003B9A2F /* View */,
 				13F29EB01C5E9E96003B9A2F /* Controller */,
 				13F29E9E1C5E9E80003B9A2F /* AppDelegate.swift */,
-				13F29EA01C5E9E80003B9A2F /* ViewController.swift */,
 				13F29EA21C5E9E80003B9A2F /* Main.storyboard */,
 				13F29EA51C5E9E80003B9A2F /* Assets.xcassets */,
 				13F29EA71C5E9E80003B9A2F /* LaunchScreen.storyboard */,
@@ -120,7 +123,9 @@
 		13F29EB01C5E9E96003B9A2F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				13F29EA01C5E9E80003B9A2F /* ViewController.swift */,
 				1355C6B21C5FFE5E0005C671 /* FeedVC.swift */,
+				131A0E2B1C61867C00F4EBEE /* ProfileViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 		13F29EB21C5E9EA2003B9A2F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1355C6B61C602FBD0005C671 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -224,6 +230,7 @@
 				TargetAttributes = {
 					13F29E9A1C5E9E80003B9A2F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WZZVG66F4K;
 					};
 				};
 			};
@@ -321,9 +328,11 @@
 				13F29EA11C5E9E80003B9A2F /* ViewController.swift in Sources */,
 				1355C6B31C5FFE5E0005C671 /* FeedVC.swift in Sources */,
 				1355C6B51C5FFF3C0005C671 /* PostCell.swift in Sources */,
+				131A0E2C1C61867C00F4EBEE /* ProfileViewController.swift in Sources */,
 				13F29E9F1C5E9E80003B9A2F /* AppDelegate.swift in Sources */,
 				13F29EC01C5EA457003B9A2F /* Constants.swift in Sources */,
 				13F29EC21C5EAF4F003B9A2F /* MaterialButton.swift in Sources */,
+				1355C6B71C602FBD0005C671 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,14 +446,18 @@
 			baseConfigurationReference = 6D96CA198BF22EF0EFD6BFEA /* Pods-swopestock-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/swopestock-app",
 				);
 				INFOPLIST_FILE = "swopestock-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rudydesigns.swopestock-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -453,14 +466,18 @@
 			baseConfigurationReference = CDFFA98F53AF0868EF523D16 /* Pods-swopestock-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/swopestock-app",
 				);
 				INFOPLIST_FILE = "swopestock-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rudydesigns.swopestock-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
